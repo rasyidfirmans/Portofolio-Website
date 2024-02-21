@@ -137,55 +137,67 @@ main #about-me p {
   line-height: 1.7rem;
 }
 
-main #portfolio {
+main #portfolio,
+main #blog {
   width: 100%;
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 5rem auto;
   padding-inline: 1rem;
   text-align: center;
 }
 
-main #portfolio .text-wrap {
+main #portfolio .text-wrap,
+main #blog .text-wrap {
   max-width: 40rem;
   margin-inline: auto;
 }
 
-main #portfolio .text-wrap p {
+main #portfolio .text-wrap p,
+main #blog .text-wrap p {
   line-height: 1.7rem;
 }
 
-main #portfolio section {
+main #portfolio section,
+main #blog section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-main #portfolio section .wrap {
+main #portfolio section .wrap,
+main #blog section .wrap {
   width: 50%;
   padding: 1rem;
 }
 
-main #portfolio section .container {
+main #portfolio section .container,
+main #blog section .container {
   width: 100%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 21px;
-  padding: 1rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 6px 8px 0px rgba(0, 0, 0, 0.6);
 }
 
-main #portfolio section .container .img-wrap {
+main #portfolio section .container .img-wrap,
+main #blog section .container .img-wrap {
   width: 100%;
   margin: auto;
 }
 
-main #portfolio section .container .text-wrap {
+main #portfolio section .container .text-wrap,
+main #blog section .container .text-wrap {
   width: 100%;
   margin: auto;
   text-align: left;
   line-height: 1.7rem;
 }
 
-main #portfolio section .container img {
+main #portfolio section .container img,
+main #blog section .container img {
   width: 100%;
+  border: 1px solid #cccccc;
   border-radius: 5px;
   box-shadow: 0 6px 8px 0px rgba(0, 0, 0, 0.6);
 }
